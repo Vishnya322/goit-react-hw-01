@@ -1,3 +1,5 @@
+/* 1 завдання */
+
 .profileImage {
   width: 150px;
   border-radius: 50%;
@@ -14,7 +16,7 @@
   flex-direction: column;
   border: 3px solid gray;
   border-radius: 10px;
-  margin: 50%;
+  margin: 100px;
 }
 .clientName {
   font-size: 34px;
@@ -74,3 +76,4 @@
   font-weight: 700;
   color: rgb(47, 45, 45);
 }
+/* 2 завдання */

@@ -1,0 +1,43 @@
+.friendsRowContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+  list-style: none;
+  padding-left: 0;
+}
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(74, 72, 72);
+  border-radius: 10px;
+  width: 100px;
+}
+.avaImg {
+  width: 90px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.friendsName {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(47, 45, 45);
+  margin: auto;
+}
+.statusPoint {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.isOnline {
+  color: green !important;
+}
+.isOffline {
+  color: red !important;
+}
