@@ -1,4 +1,6 @@
+import React from 'react';
 import css from './Profile.module.css';
+import PropTypes from 'prop-types';
 
 export const Profile = ({
   name,
@@ -10,7 +12,7 @@ export const Profile = ({
   return (
     <div className={css.profileContainer}>
       <div className={css.clientInformation}>
-        <img className={css.profileImage} src={avatar} alt="User avatar" />
+        <img className={css.profileImage} src={avatar} alt={name} />
         <p className={css.clientName}>{name}</p>
         <p className={css.clientTag}>@{tag}</p>
         <p className={css.clientLocation}>{location}</p>
@@ -33,3 +35,14 @@ export const Profile = ({
     </div>
   );
 };
+
+class Greeting extends React.Component {
+  render() {
+    return <h1>Привет, {this.props.stats}</h1>;
+  }
+}
+
+Greeting.propTypes = {
+  stats: PropTypes.isRequired,
+};
+export default Greeting;

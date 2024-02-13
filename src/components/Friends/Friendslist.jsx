@@ -1,4 +1,4 @@
-import css from './Freands.module.css';
+import css from './Friends.module.css';
 import clsx from 'clsx';
 
 export const FriendList = ({ friends }) => {
